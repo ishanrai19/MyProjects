@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Dancing+Script&family=Yrsa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.container {
+    max-width: 80%;
+    background-color: rgba(255, 228, 196, 0.274);
+    font-family: serif;
+    margin: auto;
+    padding: 30px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    text-align: center;
+}
+
+input,
+textarea {
+    font-size: 18px;
+    display: block;
+    width: 70%;
+    /* margin: auto; */
+    margin: 11px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+
+}
+
+.btn {
+    border: 2px solid maroon;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+    font-weight: bold;
+    width: 120px;
+    /* position: relative; */
+
+
+}
+
+.btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(185, 132, 132);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /* background-repeat:repeat; */
+}
+
+#bgimg {
+    position: fixed;
+}
+
+.submitmsg {
+    color: rgb(49, 82, 1);
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid rgb(153, 250, 8);
+    font-weight: bold;
+    background-color: rgb(202, 231, 164);
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 198px;
+
+}

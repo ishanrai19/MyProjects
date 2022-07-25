@@ -1,0 +1,16 @@
+#reciept
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 2px solid black;
+height: 350px;
+/* width: 400px; 
+/* height:350px;
+width:400px;
+border: 2px solid black;*/
+text-align: center;
+border-radius: 5px;
+box-shadow: -5px -5px 5px rgb(134, 123, 123); 
+}
